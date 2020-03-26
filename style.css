@@ -1,0 +1,23 @@
+.gameCell {
+    border: solid black 1px;
+    height: 100px;
+    width: 100px;
+    padding-left: 1px;
+    padding-right: 1px;
+}
+.gameCell:hover {
+    background-color: rgba(160, 160, 160, 0.1);
+}
+#appGameTitle {
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 5px;
+    color: white;
+}
+#appGameBoard {
+    height: 300px;
+    width: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
